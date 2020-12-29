@@ -1,0 +1,24 @@
+header{
+    background-image: url('../img/Flag_of_the_Soviet_Union.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border: 3px solid #525151;
+    padding-bottom: 1em;
+}
+img{
+    margin-top: 2em;
+    width: 220px;
+    height: 200px;
+    border-radius: 27px;
+}
+.slogan{
+    font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+}
+body{
+    background-image: url('../img/back_comunist.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
