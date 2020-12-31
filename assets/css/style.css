@@ -1,24 +1,161 @@
+/*------------ Cabecera pantalla 1 ------------*/
 header{
-    background-image: url('../img/Flag_of_the_Soviet_Union.svg');
-    background-repeat: no-repeat;
+    background-image: url('../img/back_comunist.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     border: 3px solid #525151;
     padding-bottom: 1em;
-}
-img{
-    margin-top: 2em;
+  }
+
+  /* Logo de cabecera */
+  img{
+    margin-top:2em;
     width: 220px;
     height: 200px;
-    border-radius: 27px;
-}
-.slogan{
+    border-radius:27px;
+  }
+
+  .slogan{
+    text-align: center;
     font-size: xx-large;
     font-weight: 800;
     font-style: italic;
-}
+    }
+
+  /*------------ Estilos generales ------------*/
 body{
-    background-image: url('../img/back_comunist.jpg');
+    background-color: #525151;
+    background-image: url('../img/51KBxuvU5FL._AC_SY450_.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    }
+    
+  /*------------ pantalla uno ------------*/
+
+    /*Pantalla 1 part1*/
+#part1 h1 {
+    margin: 2em 3em 2em 3em;
+    font-family: Lato, sans-serif;
+    text-align: center;
+  }
+    /*parrafo explicativo part1*/
+#part1 p{
+    text-align: center;
+    margin: 2em 3em 2em 3em;
+    display:block;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
 }
+
+    /*pidiendo avatar*/
+#part2 h2{
+    margin: 2em 3em 2em 3em;
+    font-family: Lato, sans-serif;
+    text-align: center;
+    
+  }
+    /*Input donde el usuario escribe su nombre*/
+#username{
+    margin-left:39%;
+    width:300px;
+    height: 25px;
+    border-radius:5px;
+    border-color: #e41a07;
+    font-size: 17px;
+    margin-bottom:2em;
+  }
+  /*Botón "entrar" que ingresa el nombre.*/
+#btnenter{
+    font-family: Merriweather, serif;
+    color:#e2e2df;
+    border:2px solid #e41a07;
+    background-color:  #e41a07;
+    font-size: 20px;
+    margin-left: 47%;
+    margin-bottom: 5em;  
+    border-radius:5px;
+    width: 100px;
+    height: 30px;
+  }
+
+  /*------------ pantalla dos ------------*/
+
+  /*dando formato a input que recoge numero ingresado por usuario*/
+#numbbox{
+    margin-bottom: 1em;
+    width:45px;
+    height: 25px;
+    border-radius:5px;
+    border-color: #e41a07;
+    font-size:25px;
+  }
+  .greeting{
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  /*Radios de cajas de texto y texto "resultado"*/
+.inpradio, .textresult{
+    font-family: Lato, sans-serif;
+    margin-left: 25%;
+    font-size: 23px;
+  }
+
+  /*Formato cajas de texto*/
+#text1,#text2{
+    background: #e2e2df;
+    width: 50%;
+    height: 200px;
+    border: 7px dashed  #e41a07;
+    margin-bottom: 3em;
+    margin-left: 25%;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  #btnconvert{
+    border-radius:5px;
+    border-color: #e41a07;
+    height: 42px;
+    background-color:  #e41a07;
+    color:#e2e2df;
+    font-size: 25px;
+    font-family: Merriweather, serif;
+    margin-left: 45%;
+  }
+    /* caja para escribir el correo electronico */
+  #email{
+    margin-bottom: 3em;
+    margin-top: 3em;
+    margin-left:28%;
+    width: 500px;
+    height: 30px;
+    border-radius:5px;
+    border-color:  #e41a07;
+    font-size: 17px;
+  }
+
+  /*Botón para enviar correo*/
+#btnsend{
+    border: 2px solid #e41a07;
+    background-color:  #e41a07;
+    color:#e2e2df;
+    font-size: 17px;
+    font-family: 'Merriweather', serif;
+    height: 34px;
+    border-radius:5px;
+  }
+
+  /*botón que redirige al home*/
+#btnhome{
+    font-family: 'Merriweather', serif;
+    border:2px solid#e41a07;
+    background-color:#e41a07;
+    color:#e2e2df;
+    font-size: 20px;
+    margin-left: 45%;
+    margin-bottom: 5em;  
+    border-radius:5px;
+  }
+  
